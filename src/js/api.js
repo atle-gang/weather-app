@@ -3,7 +3,7 @@
 export async function fetchWeatherData(location) {
     try {
         const apiKey = 'f7d08dafee3f42bd92c101550231105';
-        const apiURL = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`;
+        const apiURL = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}`;
         
         // Make API request 
         const response = await fetch(apiURL, { mode: 'cors' });
