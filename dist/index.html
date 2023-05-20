@@ -273,7 +273,7 @@
 
 
                 <!-- Hourly forecast -->
-                 <div class="section hourly-forecast" aria-label="hourly forecast" data-hourly-forecast>
+                 <section class="section hourly-forecast" aria-label="hourly forecast" data-hourly-forecast>
                     <h2 class="title-2">Today at</h2>
 
                     <div class="slider-container">
@@ -422,20 +422,37 @@
                         </ul>
 
                     </div>
-                 </div>
+                </section>
+
+
+                <!-- Footer -->
+                <footer class="footer">
+                    <p class="body-3">
+                        Powered By <a href="https://www.weatherapi.com/api" title="Free Weather API" target="_blank" rel="noopener">
+                            <img src="./images/api-weather.png" width="150" height="30" loading="lazy" alt="Weather API">
+                        </a>
+                    </p>
+                </footer>
             </div>
 
-            
-            <!-- Footer -->
-            <footer class="footer">
-                <p class="body-3">
-                    Powered By <a href="https://www.weatherapi.com/api" title="Free Weather API" target="_blank" rel="noopener">
-                        <img src="./images/api-weather.png" width="150" height="30" loading="lazy" alt="Weather API">
-                    </a>
-                </p>
-            </footer>
+
+            <div class="loading" data-loading>
+                
+            </div>
+        
         </article>
     </main>
+
+    <!-- #404 Section -->
+    <section class="error-content" data-error-content>
+        <h2 class="heading">404</h2>
+        
+        <p class="body-1">Page not found!</p>
+
+        <a href="#" class="btn-primary">
+            <span class="span">Go Home</span>
+        </a>
+    </section>
 
 </body>
 </html>
